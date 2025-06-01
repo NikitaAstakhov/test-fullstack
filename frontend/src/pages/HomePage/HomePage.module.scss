@@ -1,0 +1,30 @@
+.homeContainer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  font-size: 1.1rem;
+  color: #2980b9;
+  border: 1px solid #2980b9;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.link:hover {
+  background-color: #2980b9;
+  color: #fff;
+}

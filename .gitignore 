@@ -1,0 +1,63 @@
+# 1) macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# 2) Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 3) Python / server artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+*.eggs
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+ENV/
+env/*/bin/python
+
+# Byte‐compiled / optimized files
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# SQLite / DB files (if any local DB)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# 5) Editor / IDE / OS metadata
+# JetBrains (PyCharm, WebStorm, IntelliJ, etc.)
+.idea/
+.idea
+*.iml
+
+# Visual Studio Code
+.vscode/
